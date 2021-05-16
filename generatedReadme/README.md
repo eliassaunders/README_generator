@@ -1,7 +1,7 @@
 # README_Generator
 
 # Project Description:
-### Quality README generator
+### A high quality readme generator for your projects
 
 # Table of contents:
 [Description]()
@@ -15,19 +15,19 @@
 ### Pull from repo, install node and dependencies
 
 # Usage:
-### run from terminal
+### Run through terminal
 
 # Licence:
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)]
-### Link: https://choosealicense.com/licenses/MIT
-### This project is licensed by MIT
+[![License](https://img.shields.io/badge/License-gpl-3.0-blue.svg)]
+### Link: https://choosealicense.com/licenses/gpl-3.0
+### This project is licensed by gpl-3.0
 
 
 # Contributing:
-### Submit issues for enhancements and bugs
+### Submit issues containing possible enhancements or bugs
 
 # Tests:
-### run from terminal
+### run in terminal
 
 # Questions:
 ### Leave questions at: https://github.com/eliassaunders
