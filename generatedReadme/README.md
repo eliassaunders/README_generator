@@ -4,18 +4,18 @@
 ### A high quality readme generator for your projects
 
 # Table of contents:
-[Description]()
+[Description](#Project Description)
 [Installation](#Installation)
 [Usage](#Usage)
-[License]()
-[Contributing]()
-[Tests]()
+[License](#License)
+[Contributing](#Contributing)
+[Tests](#Tests)
 
 # Installation:
-### Pull from repo, install node and dependencies
+### Pull repo, install node and dependencies.
 
 # Usage:
-### Run through terminal
+### Run from terminal in Develop folder "node index.js"
 
 # Licence:
 [![License](https://img.shields.io/badge/License-gpl-3.0-blue.svg)]
@@ -27,7 +27,7 @@
 ### Submit issues containing possible enhancements or bugs
 
 # Tests:
-### run in terminal
+### run through terminal
 
 # Questions:
 ### Leave questions at: https://github.com/eliassaunders
