@@ -24,7 +24,7 @@ function generateMarkdown(projectData) {
 ### ${projectData.projectDescription}
 
 # Table of contents:
-[Description](#Project Description)
+[Description](#Project)
 [Installation](#Installation)
 [Usage](#Usage)
 [License](#License)

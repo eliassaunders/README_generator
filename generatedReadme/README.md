@@ -4,7 +4,7 @@
 ### A high quality readme generator for your projects
 
 # Table of contents:
-[Description](#Project Description)
+[Description](#Project)
 [Installation](#Installation)
 [Usage](#Usage)
 [License](#License)
