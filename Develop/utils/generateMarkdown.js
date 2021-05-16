@@ -37,7 +37,7 @@ function generateMarkdown(projectData) {
 # Usage:
 ### ${projectData.usage}
 
-# Licence:
+# License:
 ${renderLicenseBadge(projectData)}
 ### ${renderLicenseLink(projectData)}
 ### ${renderLicenseSection(projectData)}

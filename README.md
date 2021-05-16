@@ -17,7 +17,7 @@
 # Usage:
 ### Run from terminal in Develop folder "node index.js"
 
-# Licence:
+# License:
 
 # Contributing:
 ### Submit issues containing possible enhancements or bugs
