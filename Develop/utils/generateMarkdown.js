@@ -1,6 +1,12 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  if(license) {
+    return "";
+  } else {
+    return "";
+  }
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -38,9 +44,23 @@ function generateMarkdown(projectData) {
   [Contributing]()
   [Tests]()
 
-  #Installation
+  #Installation:
+  ${projectData.installation}
 
-  #Usage
+  #Usage:
+  ${projectData.usage}
+
+  #Licence:
+
+  #Contributing:
+  ${projectData.contribution}
+
+  #Tests:
+  ${projectData.test}
+
+  #Questions:
+  ### Leave questions at: https://github.com/${projectData.username}
+  ### Leave Additional questions at: ${projectData.email}
   `;
 }
 

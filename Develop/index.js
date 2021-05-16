@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
+const Choices = require('inquirer/lib/objects/choices');
 const { type } = require('os');
 const generateMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
@@ -19,22 +20,35 @@ const questions = [{
         }, {
             type: 'input',
             name: 'projectDescription',
-            message: 'What is the description of your project?'
+            message: 'Describe your project:'
         }, {
+            type: 'input', 
+            name: 'email',
+            message: 'Enter your email address:'
+        },{
             type: 'input',
-            name: 'InstallationInstructions',
+            name: 'username',
+            message: 'Enter your github username:'
+        },{
+            type: 'input',
+            name: 'installation',
             message: 'Installation instructions for your project:'
         }, {
             type: 'input',
-            name: 'usageInfo',
+            name: 'usage',
             message: 'Submit Usage information for your project:'
         }, {
+            type: 'rawlist',
+            name: 'license',
+            message: 'Which licensing would you prefer?',
+            choices: ['Community', 'MIT License', 'GNU GPLv3']
+        },{
             type: 'input',
-            name: 'contributionGuidelines',
+            name: 'contribution',
             message: 'Provide some guidelines for contributing to the project:'
         }, {
             type: 'input',
-            name: 'testInstructions',
+            name: 'test',
             message: 'Provide some instructions for testing the project:'
         }  ];
 
