@@ -1,7 +1,7 @@
-# README_generator
+# README_Generator
 
 # Project Description:
-### Generator to produce quality README's
+### Quality README generator
 
 # Table of contents:
 [Description]()
@@ -12,26 +12,23 @@
 [Tests]()
 
 # Installation:
-Pull from repo, install node and dependencies
+### Pull from repo, install node and dependencies
 
 # Usage:
-run from terminal
+### run from terminal
 
 # Licence:
-https://img.shields.io/badge/README_generator-project-orange
-### Link: https://choosealicense.com/licenses/apache-2.0
-### This project is licensed by apache-2.0
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)]
+### Link: https://choosealicense.com/licenses/MIT
+### This project is licensed by MIT
 
 
 # Contributing:
-Submit issues for enhancements or bugs
+### Submit issues for enhancements and bugs
 
 # Tests:
-run from terminal.
+### run from terminal
 
 # Questions:
 ### Leave questions at: https://github.com/eliassaunders
 ### Leave Additional questions at: eliasashtonsaunders@gmail.com
-
-  
-  
