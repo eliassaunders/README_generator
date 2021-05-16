@@ -41,7 +41,7 @@ const questions = [{
             type: 'rawlist',
             name: 'license',
             message: 'Which licensing would you prefer?',
-            choices: ['Community', 'MIT License', 'GNU GPLv3']
+            choices: ['apache-2.0', 'MIT', 'gpl-3.0']
         },{
             type: 'input',
             name: 'contribution',
@@ -55,7 +55,7 @@ const questions = [{
 // TODO: Create a function to write README file
 const writeFile = data => {
     return new Promise((resolve, reject) => {
-        fs.writeFileSync('../README.md', data, err => {
+        fs.writeFile('../generatedReadme/README.md', data, err => {
             if (err) {
                 reject(err);
                 return;
